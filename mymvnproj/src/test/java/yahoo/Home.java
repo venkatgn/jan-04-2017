@@ -33,6 +33,7 @@ public class Home
   }
   public void open()
   {
+	  System.out.println("open url");
 	driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 	driver.manage().window().maximize();
 	driver.get("http://www.yahoomail.com");  
